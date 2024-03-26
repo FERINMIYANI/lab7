@@ -1,0 +1,49 @@
+body{
+  background-color: #1a2134;
+  color: white;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+form label{
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+form input, form select{
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #1a2134;
+  border: 2px solid whitesmoke;
+  color: antiquewhite;
+}
+
+button{
+  width: 20%;
+  margin: 20px auto;
+  padding: 1.5%;
+  background-color: #1a2134;
+  color: aliceblue;
+}
+
+.home tr td{
+  font-size: 20px;
+}
+
+.home table{
+  border: 1px solid white;
+}
+
+.home td{
+  border: 1px solid white;
+}
